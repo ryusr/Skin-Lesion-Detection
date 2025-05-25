@@ -47,16 +47,28 @@ Skin-Lesion-Detection/
 │   ├── train_main_model_01.py    # Training script for first model
 │   └── train_main_model_02.py    # Training script for enhanced model
 ├── tests/
-│   ├── test_model_01.py    # Testing script for first model
-│   └── test_model_02.py    # Testing script for enhanced model
-├── data/                   # Training data directory
-├── Test_Data1/            # First test dataset
-├── Test_Data2/            # Second test dataset
-├── Test_Data3/            # Third test dataset
+│   ├── test_folder.py    # Testing script for folder images Select the Test_Data folder, such as Test_Data1, Test_Data2, or Test_Data3, to test images within the folder at once    # Testing script for image Select one image to test
+│   └── test_model.py    # Testing script for image Select one image to test
+├── data/                   
+│   └── HAM10000_metadata.csv
+├── Test_Data1/          
+├── Test_Data2/            
+├── Test_Data3/            
 ├── images/                # Additional project images
 ├── class.png              # Class diagram of the project
 └── README.md
 ```
+## Datasets
+This project uses publicly available datasets for training and evaluation:
+
+- Training Dataset (HAM10000)
+Source: https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+A large collection of multi-source dermatoscopic images of common pigmented skin lesions.
+
+- Test Dataset (ISIC Archive)
+Source: https://challenge.isic-archive.com/data/?utm_source=chatgpt.com
+Dataset from the International Skin Imaging Collaboration (ISIC) used for testing and benchmarking model performance.
+
 
 ## Model Training
 
@@ -122,8 +134,11 @@ Due to the large size of the datasets and image files, they are not included dir
 ### Download from External Storage
 
 The test datasets and images are available from the following locations:
-- Test datasets (Test_Data1, Test_Data2, Test_Data3): [Google Drive Link]
-- Sample images: [Google Drive Link]
+- Test datasets (Test_Data1, Test_Data2, Test_Data3): https://drive.google.com/file/d/1IegjvPCTqXRWVTV8lDCu5D7hJ7_H84Bs/view?usp=sharing
+  from: Test Dataset (ISIC Archive) 
+  
+- Sample images: https://drive.google.com/file/d/1x455VIEUVyqiadLJ_QPcagrSRS0xDm1r/view?usp=sharing
+  from: Training Dataset (HAM10000)
 
 To use these files:
 1. Download the zip files from the provided links
