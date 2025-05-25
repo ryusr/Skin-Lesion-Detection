@@ -47,7 +47,7 @@ Skin-Lesion-Detection/
 │   ├── train_main_model_01.py    # Training script for first model
 │   └── train_main_model_02.py    # Training script for enhanced model
 ├── tests/
-│   ├── test_folder.py    # Testing script for folder images Select the Test_Data folder, such as Test_Data1, Test_Data2, or Test_Data3, to test images within the folder at once    # Testing script for image Select one image to test
+│   ├── test_folder.py    # Testing script for folder images Select the Test_Data folder, such as Test_Data1, Test_Data2, or Test_Data3, to test images within the folder at once
 │   └── test_model.py    # Testing script for image Select one image to test
 ├── data/                   
 │   └── HAM10000_metadata.csv
