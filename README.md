@@ -134,10 +134,10 @@ Due to the large size of the datasets and image files, they are not included dir
 ### Download from External Storage
 
 The test datasets and images are available from the following locations:
-- Test datasets (Test_Data1, Test_Data2, Test_Data3): https://drive.google.com/file/d/1IegjvPCTqXRWVTV8lDCu5D7hJ7_H84Bs/view?usp=sharing
+- Test datasets (Test_Data1, Test_Data2, Test_Data3): [https://drive.google.com/file/d/19p7doe-YToxvX2KN1U5NnCk0MLlGibcK/view?usp=sharing]
 from: Test Dataset (ISIC Archive) 
   
-- Sample images: https://drive.google.com/file/d/1x455VIEUVyqiadLJ_QPcagrSRS0xDm1r/view?usp=sharing
+- Sample images: [https://drive.google.com/file/d/1wOEWr_CFIWa6AOwhWUOQ65G64ZPm7HcX/view?usp=sharing]
 from: Training Dataset (HAM10000)
 
 To use these files:
