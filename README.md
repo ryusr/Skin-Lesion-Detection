@@ -31,19 +31,7 @@ A deep learning-based application for detecting and classifying various types of
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Skin-Lesion-Detection.git
-   cd Skin-Lesion-Detection
-   ```
-
-2. Create a virtual environment (recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install the required packages:
+ Install the required packages:
    ```bash
    pip install tensorflow keras numpy Pillow
    ```
