@@ -94,11 +94,11 @@ python srcs/train_main_model_02.py
 
 2. Run the application (you can choose either model):
    ```bash
-   # For base model
-   python tests/test_model_01.py
+   # For folder testing
+   python tests/test_folder.py
    
-   # For enhanced model
-   python tests/test_model_02.py
+   # For image testing
+   python tests/test_model.py
    ```
 
 3. Using the application:
@@ -135,10 +135,10 @@ Due to the large size of the datasets and image files, they are not included dir
 
 The test datasets and images are available from the following locations:
 - Test datasets (Test_Data1, Test_Data2, Test_Data3): https://drive.google.com/file/d/1IegjvPCTqXRWVTV8lDCu5D7hJ7_H84Bs/view?usp=sharing
-  from: Test Dataset (ISIC Archive) 
+from: Test Dataset (ISIC Archive) 
   
 - Sample images: https://drive.google.com/file/d/1x455VIEUVyqiadLJ_QPcagrSRS0xDm1r/view?usp=sharing
-  from: Training Dataset (HAM10000)
+from: Training Dataset (HAM10000)
 
 To use these files:
 1. Download the zip files from the provided links
