@@ -62,12 +62,11 @@ Skin-Lesion-Detection/
 This project uses publicly available datasets for training and evaluation:
 
 - Training Dataset (HAM10000)
-Source: https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
-A large collection of multi-source dermatoscopic images of common pigmented skin lesions.
+Source: https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000 A large collection of multi-source dermatoscopic images of common pigmented skin lesions.
+
 
 - Test Dataset (ISIC Archive)
-Source: https://challenge.isic-archive.com/data/?utm_source=chatgpt.com
-Dataset from the International Skin Imaging Collaboration (ISIC) used for testing and benchmarking model performance.
+Source: https://challenge.isic-archive.com/data/?utm_source=chatgpt.com Dataset from the International Skin Imaging Collaboration (ISIC) used for testing and benchmarking model performance.
 
 
 ## Model Training
@@ -102,7 +101,7 @@ python srcs/train_main_model_02.py
    ```
 
 3. Using the application:
-   - Click the "Select Image" button to choose an image file
+   - Click the "Select Image" button to choose an image file or folder
    - The selected image will be displayed in the application window
    - The prediction result and confidence score will appear below the image
 
@@ -118,6 +117,23 @@ The project includes three separate test datasets (Test_Data1, Test_Data2, Test_
 
 The project's architecture is documented in the `class.png` file, which shows the relationships between different components of the system. This diagram helps in understanding the overall structure and flow of the application.
 
+## Data Management
+
+Due to the large size of the datasets and image files, they are not included directly in the GitHub repository. You can access the data in one of the following ways:
+
+### Download from External Storage
+
+The test datasets and images are available from the following locations:
+-   Test_Data (Test_Data1, Test_Data2, Test_Data3): https://drive.google.com/file/d/19p7doe-YToxvX2KN1U5NnCk0MLlGibcK/view?usp=sharing from: Test Dataset (ISIC Archive) 
+
+  
+- images(for training a model): https://drive.google.com/file/d/1wOEWr_CFIWa6AOwhWUOQ65G64ZPm7HcX/view?usp=sharing from: Training Dataset (HAM10000)
+
+To use these files:
+1. Download the zip files from the provided links
+2. Extract them to the project root directory
+3. Ensure the folder names match exactly: `Test_Data1`, `Test_Data2`, `Test_Data3`, and `images`
+
 ## Notes
 
 - The application supports image files in JPG, JPEG, and PNG formats
@@ -126,21 +142,3 @@ The project's architecture is documented in the `class.png` file, which shows th
 - The GUI window is fixed at 800x800 pixels for optimal display
 - Two model implementations are available for comparison
 - Comprehensive test datasets are included for evaluation
-
-## Data Management
-
-Due to the large size of the datasets and image files, they are not included directly in the GitHub repository. You can access the data in one of the following ways:
-
-### Download from External Storage
-
-The test datasets and images are available from the following locations:
-- Test datasets (Test_Data1, Test_Data2, Test_Data3): [https://drive.google.com/file/d/19p7doe-YToxvX2KN1U5NnCk0MLlGibcK/view?usp=sharing]
-from: Test Dataset (ISIC Archive) 
-  
-- Sample images: [https://drive.google.com/file/d/1wOEWr_CFIWa6AOwhWUOQ65G64ZPm7HcX/view?usp=sharing]
-from: Training Dataset (HAM10000)
-
-To use these files:
-1. Download the zip files from the provided links
-2. Extract them to the project root directory
-3. Ensure the folder names match exactly: `Test_Data1`, `Test_Data2`, `Test_Data3`, and `images`
