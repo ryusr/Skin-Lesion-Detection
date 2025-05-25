@@ -119,7 +119,7 @@ The project's architecture is documented in the `class.png` file, which shows th
 
 Due to the large size of the datasets and image files, they are not included directly in the GitHub repository. You can access the data in one of the following ways:
 
-### Option 1: Download from External Storage
+### Download from External Storage
 
 The test datasets and images are available from the following locations:
 - Test datasets (Test_Data1, Test_Data2, Test_Data3): [Google Drive Link]
@@ -129,49 +129,3 @@ To use these files:
 1. Download the zip files from the provided links
 2. Extract them to the project root directory
 3. Ensure the folder names match exactly: `Test_Data1`, `Test_Data2`, `Test_Data3`, and `images`
-
-### Option 2: Git LFS (Large File Storage)
-
-If you prefer using Git LFS:
-
-1. Install Git LFS:
-   ```bash
-   # For Windows (with Chocolatey)
-   choco install git-lfs
-
-   # For macOS
-   brew install git-lfs
-
-   # For Linux
-   sudo apt-get install git-lfs
-   ```
-
-2. Initialize Git LFS:
-   ```bash
-   git lfs install
-   ```
-
-3. Track large files:
-   ```bash
-   git lfs track "Test_Data1/**"
-   git lfs track "Test_Data2/**"
-   git lfs track "Test_Data3/**"
-   git lfs track "images/**"
-   ```
-
-4. Commit and push as usual:
-   ```bash
-   git add .gitattributes
-   git commit -m "Configure Git LFS for large files"
-   git push
-   ```
-
-### Option 3: Data Generation Scripts
-
-For users who want to train the model with their own data:
-1. Place your training images in the `data` directory
-2. Organize test images in the respective Test_Data directories
-3. Follow the same folder structure as described in the project documentation
-
-Note: The original dataset used for training and testing is from [Dataset Source/Name]. You can also download it directly from there and process it using our training scripts.
-
