@@ -142,3 +142,6 @@ To use these files:
 - The GUI window is fixed at 800x800 pixels for optimal display
 - Two model implementations are available for comparison
 - Comprehensive test datasets are included for evaluation
+
+
+## Disclaimer: This project is for educational purposes only. The model predictions are not intended for clinical use and should not be used to diagnose or treat any medical condition. Please consult a licensed medical professional for any health-related decisions.
